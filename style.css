@@ -1,0 +1,138 @@
+
+.nav {
+  display: flex;
+  align-items: center;
+  font-family: 'Arial', sans-serif;
+  color: #212121;
+  font-size: 13px;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 610px;
+}
+
+.right {
+  text-align: right;
+}
+
+.logo, .formulaire, .boutons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.formulaire {
+  display: flex;
+  justify-content: space-between;
+  border : solid #E4E4E4 1px;
+  border-radius: 40px;
+  width: 600px;
+  padding: 5px;
+}
+
+.formulaire:hover {
+  box-shadow: 0px 0.5px 0.5px 0px;
+}
+
+#logo{
+  width: 300px;
+}
+
+
+#picto{
+  width: 50px;
+}
+
+.coronavirus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  color: #190CAB;
+}
+
+#lien {
+  color: #190CAB;
+  padding: 10px;
+  font-size: 14px;
+}
+
+#vocal{
+  width: 40px;
+  margin-right: 10px;
+}
+
+#loupe{
+  width: 20px;
+  margin-left: 10px;
+}
+
+
+.left, .right {
+  height: 50px;
+  min-width: 200px;
+  flex: 1;
+}
+
+.footer1, .footer2
+{
+  display: flex;
+  align-items: center;
+  background-color: #F2F2F2;
+  font-family: 'Arial', sans-serif;
+  color: #5F6368;
+  font-size: 14px;
+}
+
+.footer1 {
+  border-top:solid #E4E4E4 1px;
+  border-bottom: solid #E4E4E4 1px;
+  vertical-align: center;
+}
+
+a {
+  color: #5F6368;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#connexion {
+  background-color: #4285F4;
+  width: 90px;
+  color: white;
+  border-radius: 2px;
+  height: 31px;
+  font-weight: 600;
+  text-align: center;
+  font-size: 13px;
+  line-height: 2;
+}
+
+button{
+  background-color: #f2f2f2;
+  border:0;
+  border-radius: 4px;
+  width: 150px;
+  line-height: 2.5;
+  margin: 11px 4px;
+  font-size: 14px;
+  color: #5F6368;
+  cursor: pointer;
+  height: 36px;
+}
+
+button:hover{
+  border: solid #E4E4E4 1px;
+  box-shadow: 0px 0.5px 0.5px 0px;
+  color: #212121;
+}
+
